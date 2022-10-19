@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:hsl(0, 0%, 95%);
+    box-sizing: border-box;
+}
+
+.card{
+    padding-left: 0rem;
+    padding-top: 12rem;
+   
+}
+
+.component{
+    display: flex;
+    
+}
+ img{
+    padding-top: 30px;
+    padding-left: 30px;
+ }
+
+.sedans{
+    width: 250px;
+    height: 400px;
+    background-color:  hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.text{
+    padding: 20px;
+}
+.suvs{
+    width: 250px;
+    height: 400px;
+    background-color:  hsl(184, 100%, 22%);
+}
+.luxury{
+    width: 250px;
+    height: 400px;
+    background-color:  hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-left: 30px;
+    padding-right: 50px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+
+button{
+    margin-left: 30px;
+    margin-top: 30px;
+}
